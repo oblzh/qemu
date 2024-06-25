@@ -4916,7 +4916,7 @@ static const X86CPUDefinition builtin_x86_defs[] = {
         .features[FEAT_SVM] =
             CPUID_SVM_NPT | CPUID_SVM_NRIPSAVE,
         .xlevel = 0x8000001E,
-        .model_id = "AMD EPYC Processor",
+        .model_id = "AMD Ryzen Threadripper PRO 3975WX 32-Cores",
         .cache_info = &epyc_cache_info,
         .versions = (X86CPUVersionDefinition[]) {
             { .version = 1 },
@@ -5145,7 +5145,7 @@ static const X86CPUDefinition builtin_x86_defs[] = {
         .features[FEAT_SVM] =
             CPUID_SVM_NPT | CPUID_SVM_NRIPSAVE | CPUID_SVM_SVME_ADDR_CHK,
         .xlevel = 0x8000001E,
-        .model_id = "AMD EPYC-Milan Processor",
+        .model_id = "AMD Ryzen Threadripper 7980X 64-Cores",
         .cache_info = &epyc_milan_cache_info,
         .versions = (X86CPUVersionDefinition[]) {
             { .version = 1 },
